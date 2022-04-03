@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #161616;
+}
+.img {
+  width: 100%;
+  height: 100vh;
+  background: url(/img.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img h1 {
+  font-family: "Ogg";
+  text-transform: uppercase;
+  font-size: 120px;
+  color: white;
+  font-weight: lighter;
+  font-style: italic;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 200vh;
+  width: 100%;
+}
+.container .text {
+  font-size: 200px;
+  font-family: "Ogg";
+}
+.text > p {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgb(37, 37, 37) 50%
+  );
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-bottom: -250px;
+  margin-left: 50px;
+}
